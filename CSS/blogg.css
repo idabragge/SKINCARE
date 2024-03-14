@@ -26,19 +26,40 @@ ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#search-box {
-    display: flex;
-    align-items: center;
-    margin-right:30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 #search-input,
 button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 10px; 
-
+    border-radius: 5px;
+    padding: 7px;
+    border: none; 
 }
+
+#search-input {
+    width: 200px;
+}
+
+button {
+    background-color: #e9daa5;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(241, 224, 138, 0.829);
+}
+
+.menu-item {
+    margin-right: 10px; /* Justera detta värde efter önskad avstånd */
+    border: 1px solid #ead075;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color:rgba(241, 224, 138, 0.829);
+}
+
 
 h1 {
     text-align: center;
