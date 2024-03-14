@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hem</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+<body onload="buildMenu()">
+    <header>
+        <ul id="header-menu"></ul>
+     
+        <div id="search-box">
+            <input type="text" id="search-input" placeholder="Sök...">
+            <button onclick="search()">Sök</button>
+        </div>
+
+    </header>
+
+    <div class="hero">
+    </div>
+
+    <h1>Hudguiden</h1>
+
+    <div class="flexboxbody">
+        <div class="rutin">
+            <h3> <a href="blogg.html">Blogg</a></h3><br>
+            <a href="blogg.html"><img src="images/notebook.png" width="210"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
+        </div>
+        <div class="ingredients">
+            <h3> <a href="ingredienser.html">Ingredienslexikon</a></h3> <br>
+            <a href="ingredienser.html"><img src="images/serumstartsida.png" width="210"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
+        </div>
+
+        <div class="media">
+            <h3> <a href="media.html">Media</a></h3> <br>
+            <a href="media.html"><img src="images/mirrorstartsida.png" width="210"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+    <footer onload="buildMenu()">
+        <ul id="footer-menu"></ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
