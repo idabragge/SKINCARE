@@ -5,13 +5,14 @@ function buildMenu() {
         ["Blogg", "blogg.html"], 
         ["Media", "media.html"],
         ["Om oss", "omoss.html"],
+        ["Nyhetsbrev", "https://ida979.wordpress.com"],
     ];
 
     var content = "";
     for(var i = 0; i < links.length; i++) {
         var text = links[i][0];
         var address = links[i][1];
-        content += "<li><a href=\"" + address + "\">" + text + "</a></li>";
+        content += "<li class='menu-item'><a href=\"" + address + "\">" + text + "</a></li>";
     }
 
     // Fyller headerns meny
